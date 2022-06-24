@@ -26,7 +26,7 @@ Run the command below from the Terminal:
 
       git clone <URL> 'https://github.com/BwalyaNonde/Leaderboard-Project/tree/Dev' in your terminal
 
-	  cd project-setup
+	  cd Hit-api
 
 	  start npm install
 
