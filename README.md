@@ -4,11 +4,6 @@
 > _note: you can only access this link if you're a Micronault (Microverse Student)_
 
 Additional description about the project and its features.
-
-
-
-![screenshot](./src/img/ld.png)
-
  
 
 ## Live Demo
@@ -29,17 +24,19 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone <URL> 'https://github.com/mwanawabangona/learderboard/issues' in your terminal
+      git clone <URL> 'https://github.com/BwalyaNonde/Leaderboard-Project/tree/Dev' in your terminal
 
-	  cd branch-A
+	  cd project-setup
 
-	  start index.html
+	  start npm install
+
+      npm start
 
 
 
 ## Authors
 
-👤 **Ellis**
+👤 **Bwalya**
 
 - Location: Zambia
 - GitHub: [@BwalyaNonde](https://github.com/BwalyaNonde)
@@ -51,7 +48,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mwanawabangona/learderbord/issues).
+Feel free to check the [issues page](https://github.com/BwalyaNonde/Leaderboard-Project/issues).
 
 ## Show your support
 
