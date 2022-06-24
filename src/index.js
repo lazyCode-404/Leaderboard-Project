@@ -1,4 +1,23 @@
 import './style.css';
-import { displayScores } from './listcore.js';
+import { addScore, displayScoreList } from './listcore.js';
 
-displayScores();
+const form = document.querySelector('form');
+const refresh = document.getElementById('refresh');
+
+refresh.addEventListener('click', () => {
+  displayScoreList();
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const name = form.elements.user.value;
+  const userscore = form.elements.score.value;
+  if (name !== '' && userscore !== '') {
+    const data = {
+      user: name,
+      score: userscore,
+    };
+    addScore(data);
+    form.reset();
+  }
+});
