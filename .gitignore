@@ -1,5 +1,2 @@
-# Object file
-*
-
-# Ada Library Information
-*.ali
+node_modules
+hint-report

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learderbord</title>
+</head>
+<body>
+<header>
+  <h1 class="header">learderbord</h1>
+</header>
+  <div class="main-container d-flex">
+  <section class="first-part">
+    <div class="score-header d-flex">
+        <h2>recent scores</h2>
+        <button type="submit" id="refresh">refresh</button>
+    </div>
+      <div class="ul" id="ul">
+          <ul class="scores" id="scores">
+          </ul>
+        </div>
+        
+    </section>
+
+    <section class="second-part" id="second-part">
+        <div class="header" id="header">
+          <h1>Add your score</h1>
+        </div>
+        <form id="form" class="d-flex" class="form">
+          <input type="text" id="first-input" name="user" placeholder=" your name" required>
+          <input type="number" id="input" name="score" placeholder="your score" required>
+          <button class="submit" type="submit" title="submit">Submit</button>
+        </form>
+    </section>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
