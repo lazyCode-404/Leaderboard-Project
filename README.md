@@ -1,38 +1,72 @@
-# LeaderBoard
+# leaderboard-Project
 
-> This project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/sneak_peek.md)
-> _note: you can only access this link if you're a Micronault (Microverse Student)_
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Additional description about the project and its features.
- 
+> The leaderboard app displays scores submitted by different players. It also allows you to submit your score.
 
-## Live Demo
+# WORKFLOW SCREENSHOT
 
-[Live Demo Link](/)coming soon!!
- 
+![screenshot]
+
+
 ## Built With
-
 - HTML
 - CSS
-- Javascript
-- HTML&CSS Linter
-
-## Get Started
-
-Please get your browser update.
-To get a local copy up and running follow these simple steps.
-
-Run the command below from the Terminal:
-
-      git clone <URL> 'https://github.com/BwalyaNonde/Leaderboard-Project/tree/Dev' in your terminal
-
-	  cd Hit-api
-
-	  start npm install
-
-      npm start
+- JavaScript
+- 
+## Live Demo (if available)
 
 
+[Live Demo Link](https://github.com/BwalyaNonde/Leaderboard-Project/tree/Dev)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Web Browser
+- Code Editor
+- Prior knowledge of CSS, HTML, GIT, GITHUB and Linters.
+
+### Setup
+
+
+```bash
+npm install
+```
+
+```bash
+npm build
+```
+
+```bash
+npm start
+```
+
+### Run the following commands to run linter tests
+
+WebHint
+```bash
+npx hint .
+```
+
+StyleLint
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+
+ESLint
+```bash
+npx eslint .
+```
+
+```bash
+
+git clone//https://github.com/BwalyaNonde/leaderboard-Project
+cd leaderboard-Project
+```
 
 ## Authors
 
@@ -48,7 +82,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BwalyaNonde/Leaderboard-Project/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -56,8 +90,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and my Coding Partners
-- My Learning Partners
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+
+This project is [MIT](https://github.com/BwalyaNonde/leaderboard-Project/main/LICENSE ) licensed.
+
